@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Online Market';
+    src: url('fonte/Online\ Market.otf') format(opentype);
+}
+body{
+    background-color: white;
+    margin: 0px;
+
+}
+header{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    
+    
+    
+}
+
+.titulo{
+    color: white;
+    background-color: black;
+    font-family: 'Online Market';
+    font-size: 15vh;
+    margin-bottom: 3px;
+    font-variant: small-caps;
+   
+}
+header>p{
+    color: white;
+    font-size: 2vh;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    
+    
+
+}
+header>p>a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    
+    
+}
+header>p>a:hover{
+    color: rgb(114, 112, 112);
+    transition-duration: 0.15s;
+}
+
+
+main{
+     font-family:"Azeret Mono";
+      font-optical-sizing: auto;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 5.5vh;
+     
+      margin: auto;
+      
+}
+main>p{
+    padding-bottom: 2em;
+    
+}
+main>div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 50px;
+    
+    
+}
+
+div#img01{
+    background-image: url("imagem/background001.jpg");
+    background-position: right center;
+    background-color: rgb(255, 254, 254);
+    box-shadow: inset 6px 5px 13px rgb(0, 0, 0);
+    background-attachment: fixed;
+    
+}  
+div#img02{
+    background-image: url("imagem/background002.jpg");
+    background-position: right center;
+    background-color: rgb(255, 251, 251);  
+    background-size: cover;
+    box-shadow: inset 6px 5px 13px 0px rgba(0, 0, 0, 0.485);
+    background-attachment: fixed;
+}
+
+
+div.fundo{
+  
+  color: white;  
+  
+  margin-right: 10px;
+  
+
+}
+.fundo>p{
+    display: inline-block;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.62);
+    text-shadow: 1px 1px 0px black;
+    width: 400px;
+    line-height: 30px;
+}
+
+
+
+main>div>p {   
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+
+div.escrita{
+    background-image: url("imagem/background002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 1194px;
+    height: 650px;
+    right: 28px;
+    top: 10px;
+}
+div.papel{
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.595);
+    color: white;
+    padding-left: 35px;
+    padding-top: 1px;
+}
+aside{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+aside>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
